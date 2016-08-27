@@ -1,0 +1,15 @@
+#DOM
+##Document
+	对象集合：all[],anchors[],forms[],images[],links[]
+		对象属性：cookie,domain,lastModified,referrer,title,URL
+			对象方法：close(),getElementById(),getElementsByName(),getElementsByTagName(),open(),write(),writeIn()
+##Element
+				属性和方法：element.accessKey,element.appendChild(),element.attributes,element.childNodes,element.className,element.clientHeight,element.clientWidth,element.cloneNode(),element.compareDocumentPosition(),element.contentEditable,element.dir,element.firstChild,element.getAttribute(),element.getAttributeNode(),element.getElementsByTagName(),element.hasAttribute(),element.hasAttributes(),element.hasChildNodes(),element.id,element.innerHTML,element.insertBefore(),element.isContentEditable,element.isDefaultNamespace(),element.isEqualNode(),element.isSameNode(),element.isSupported(),element.lang,element.lastChild,element.namespaceURI,element.nextSibling,element.nodeName,element.nodeType,element.nodeValue,element.normalize(),element.offsetHeight,element.offsetWidth,element.offsetLeft,element.offsetParent,element.offsetTop,element.ownerDocument,element.parentNode,element.previousSibling,element.removeAttribute(),element.removeAttributeNode(),element.removeChild(),element.replaceChild(),element.scrollHeight,element.scrollLeft,element.scrollTop,element.scrollWidth,element.setAttribute(),element.style,element.tagIndex,element.tagName,element.textContent,element.title,element.toString(),nodelist.item(),nodelist.length
+##Attribute
+					属性和方法：attr.isId,attr.name,attr.value,attr.specified,nodemap.getNamedItem(),nodemap.item(),nodemap.length,nodemap.removeNamedItem(),nodemap.setNamedItem()
+##Event
+						事件句柄：onabort,onblur,onchange,onclick,ondblclick,onerror,onfocus,onkeydown,onkeypress,onkeyup,onload,onmousedown,onmousemove,onmouseout,onmouseover,onmouseup,onreset,onresize,onselect,onsubmit,onunload
+							鼠标/键盘属性：altKey,button,clientX,clientY,ctrlKey,metaKey,relatedTarget,screenX,screenY,shiftKey
+								IE属性：cancelBubble,fromElement,keyCode,offsetX,offsetY,returnValue,srcElement,toElement,x,y
+									标准Event属性：bubbles,cancelable,currentTarget,eventPhase,target,timeStamp,type
+										标准Event方法：initEvent(),preventDefault(),stopPropagation()
